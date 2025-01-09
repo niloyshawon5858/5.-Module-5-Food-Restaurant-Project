@@ -23,8 +23,9 @@
   border-radius: 8px;
   border: none;
   background: rgb(82, 195, 3);
+  cursor: pointer;
 }
-/* hero section styles */
+/* Section 1 hero section styles */
 #hero {
   background: linear-gradient(
       00deg,
@@ -35,7 +36,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 1536px;
+  /* width: 1536px; */
+  width: 100%;
   height: 735px;
   display: flex;
   justify-content: center;
@@ -84,4 +86,61 @@
   text-align: center;
   opacity: 0.7;
   margin-bottom: 42.4px;
+}
+
+/* Section 2 Card-box style */
+#card-box {
+  width: 1056px;
+  margin: 134px auto;
+}
+
+#card-box .info {
+}
+
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 19.2px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38.4px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box .card-container {
+  margin-top: 38.4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card-box .card {
+  max-width: 339.2px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box {
+  width: 339.2px;
+}
+.card .image-box img {
+  width: 100%;
+}
+
+.card .item-name {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 11.2px 25.6px 11.2px 25.6px;
 }
